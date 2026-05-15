@@ -89,6 +89,7 @@ public class AdminView extends JFrameView {
         heading.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         JLabel passLabel = new JLabel("Password:");
+        passLabel.setFont(passLabel.getFont().deriveFont(Font.BOLD, 13f));
         passLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         passwordField.setMaximumSize(
